@@ -21,5 +21,6 @@ def solve_quadratic(a, b, c):
 
 if __name__ == "__main__":
     # Приклад: x^2 - 5x + 6 = 0 (корені 3 та 2)
+    print("Ця версія зафіксована у гілці MAIN")
     result = solve_quadratic(1, -5, 6)
     print(result)
