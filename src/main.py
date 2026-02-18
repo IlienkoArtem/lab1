@@ -20,6 +20,6 @@ def solve_quadratic(a, b, c):
         return "Рівняння не має дійсних коренів."
 
 if __name__ == "__main__":
-    # Приклад: x^2 - 5x + 6 = 0 (корені 3 та 2)
     result = solve_quadratic(1, -5, 6)
     print(result)
+    print("Результат: Об'єднана версія MAIN + DEVELOP")
