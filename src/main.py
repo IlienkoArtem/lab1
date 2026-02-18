@@ -1,4 +1,5 @@
 import math
+from utils import get_project_info
 
 def solve_quadratic(a, b, c):
     print(f"Розв'язуємо рівняння: {a}x^2 + {b}x + {c} = 0")
@@ -21,5 +22,7 @@ def solve_quadratic(a, b, c):
 
 if __name__ == "__main__":
     # Приклад: x^2 - 5x + 6 = 0 (корені 3 та 2)
+    print(get_project_info())
     result = solve_quadratic(1, -5, 6)
     print(result)
+    
